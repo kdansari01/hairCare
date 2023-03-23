@@ -31,7 +31,7 @@ const Navbar = () => {
           >
             <div>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="NavList nav-item ">
+                <li className="NavList nav-item justify-content-evenly ">
                   {/* <a className="" aria-current="page" href="#">
                   Home
                 </a> */}

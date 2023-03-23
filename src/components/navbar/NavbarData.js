@@ -23,10 +23,10 @@ export const NavbarItems = [
   },
   {
     path: "/user",
-    icon: <BsFillPersonFill />,
+    icon: <BsFillPersonFill style={{ fontSize: 30 }} />,
   },
   {
     path: "/cart",
-    icon: <AiOutlineShoppingCart/>,
+    icon: <AiOutlineShoppingCart style={{ fontSize: 30 }} />,
   },
 ];

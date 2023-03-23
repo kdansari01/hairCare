@@ -39,8 +39,11 @@ const Sliders = () => {
     <div>
       <Slider {...settings}>
         {images.map((img) => (
-          <div className="SliderComp d-flex justify-content-center">
-            <img src={img.img} alt="img" key={img.id} className="slidesImg" />
+          <div
+            key={img.id}
+            className="SliderComp d-flex justify-content-center"
+          >
+            <img src={img.img} alt="img" className="slidesImg" />
 
             {/* <p className="imgDesc">{img.desc}</p> */}
           </div>

@@ -2,6 +2,10 @@
 body {
   padding: 0;
   margin: 0;
+
+}
+.landingPage{
+  overflow-x: hidden;
 }
 .SliderComp {
   position: relative;
@@ -24,8 +28,7 @@ body {
   transition: all 1s ease-in-out;
 }
 .catgryImgMain:hover {
-   background: #54b3d6;
-
+  background: #54b3d6;
 }
 
 .catgryImg {
